@@ -34,7 +34,7 @@ project_root/
 │   ├── db/
 │   │   ├── __init__.py
 │   │   ├── base.py                # SQLAlchemy DeclarativeBase + 命名规范
-│   │   ├── session.py             # 异步引擎/会话/上下文管理器
+│   │   ├── session.py             # 数据库会话管理器
 │   │   └── models/
 │   │       ├── __init__.py
 │   │       ├── mixins.py          # 通用模型 Mixin（如 TimestampMixin）
