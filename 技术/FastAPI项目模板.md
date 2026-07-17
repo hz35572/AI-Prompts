@@ -59,7 +59,9 @@ project_root/
 │   ├── integration/               # 集成测试（API 全链路）
 │   └── unit/                      # 单元测试（纯函数/服务/校验器）
 ├── pyproject.toml                 # 项目配置 + 依赖 + pytest 配置
-├── docker-compose.yml             # 本地开发依赖（Postgres/Redis等）
+├── docker/
+│   ├── docker-compose.yml             # 本地开发依赖（Postgres/Redis等）
+|
 └── README.md
 ```
 
